@@ -1,0 +1,73 @@
+:root {
+  font-size: 62.5%;
+  --primary-color: hsl(209, 77%, 43%);
+  --headline: hsl(105, 100%, 5%);
+  --paragraph: hsl(104, 16%, 24%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  margin-top: 4.1rem;
+  width: 37.5rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+h4 {
+  font-size: 1.4rem;
+  color: var(--primary-color);
+  margin-bottom: 1.6rem;
+}
+
+h1 {
+  font-size: 3.4rem;
+  color: var(--headline);
+  margin-bottom: 2.4rem;
+}
+
+p {
+  font-size: 1.8rem;
+  line-height: 150%;
+  font-weight: 400;
+  color: var(--paragraph);
+  margin-bottom: 3.2rem;
+}
+
+button {
+  background-color: var(--primary-color);
+  border-radius: 0.8rem;
+  border: none;
+  margin-bottom: 6rem;
+  height: 6.2rem;
+  width: 26.3rem;
+  border-radius: 4rem;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: 700;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1.6rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+/*# sourceMappingURL=root.css.map */
